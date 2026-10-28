@@ -7,4 +7,17 @@ function sigma(n) {
     
 }
 
+
+
 console.log(sigma(5))
+
+function isValid(username, password) {
+    if (username== "user" && password== "qweasd" || username=="admin") {
+        return true
+    } else {
+        return false
+    }
+
+}
+console.log(isValid("admin", "ahre"))
+
