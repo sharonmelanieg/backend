@@ -30,7 +30,7 @@ let estado
 
 if(nota1>=8 && nota2>=8 && asistencia>=75){
     promedio=(nota1+nota2)/2
-console.log("Promocionaste no necesitas ir a final. Tenes un promedio de: "+promedio)
+console.log("Promocionaste no necesitas ir a final. Tenes un promedio de: "+promedios(nota1, nota2, estado, final, promedio))
 
 }
 else if (nota1>=4 && nota2>=4 && asistencia>=75 ) {
