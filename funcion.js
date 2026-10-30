@@ -12,7 +12,7 @@ function sigma(n) {
 console.log(sigma(5))
 
 function isValid(username, password) {
-    if (username== "user" && password== "qweasd" || username=="admin") {
+    if (username=== "user" && password=== "qweasd" || username=="admin") {
         return true
     } else {
         return false
@@ -20,4 +20,10 @@ function isValid(username, password) {
 
 }
 console.log(isValid("admin", "ahre"))
+
+
+
+
+
+
 
