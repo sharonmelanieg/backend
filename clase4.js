@@ -111,7 +111,7 @@ const { method, url } = req;
         req.on('end', () => {
             try {
                 const nuevoUsuario = JSON.parse(body);
-console.log(nuevoUsuario)
+                console.log(nuevoUsuario)
                 nuevoUsuario.id = tipoUsuario.length + 1;
                 console.log(nuevoUsuario)
                 tipoUsuario.push(nuevoUsuario);
